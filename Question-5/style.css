@@ -1,0 +1,90 @@
+body {
+  color: white;
+  background-color: #29303a;
+  font-family: sans-serif;
+  padding: 20px;
+}
+header {
+  background-color: white;
+  padding: 5px;
+  border-radius: 6px 6px 0px 0px;
+}
+* {
+  box-sizing: border-box;
+  border: hidden;
+}
+.container1 {
+  width: 60%;
+  float: left;
+  padding: 50px;
+  height: 550px;
+  background-color: #161718;
+  border-radius: 0px 0px 0px 6px;
+}
+.container2 {
+  background-color: #5bbb80f6;
+  width: 40%;
+  color: white;
+  float: right;
+  padding: 130px 70px;
+  height: 550px;
+  border-radius: 0px 0px 6px 0px;
+}
+h3,
+p {
+  color: #94a0a3;
+  text-align: left;
+}
+.logo {
+  width: 141px;
+  margin-top: 36px;
+}
+.bottom a {
+  text-decoration: none;
+  color: #94a0a3;
+  font-size: 14px;
+}
+a + a {
+  margin-left: 30px;
+}
+
+button {
+  background-color: #5bbb80f6;
+  color: white;
+  border-radius: 2px;
+  font-weight: bolder;
+  height: 30px;
+}
+.inp{
+    border-bottom: 1px solid;
+}
+.inputs {
+  background: transparent;
+  color: white;
+  font-size: medium;
+  font-weight: bolder;
+  line-height: 50px;
+  outline: none;
+}
+input[type="submit"] {
+  background-color: white;
+  font-weight: bold;
+  color: #5bbb80f6;
+  display: inline-block;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 2px;
+ 
+}
+#pass {
+  background: transparent;
+  color: white;
+  outline: none;
+  width: 130px;
+  height: 30px;
+  font-weight: lighter;
+}
+.submit{
+    margin-top: 30px;
+}

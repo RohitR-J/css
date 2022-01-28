@@ -1,0 +1,7 @@
+.red {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 10em auto;
+}

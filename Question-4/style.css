@@ -1,0 +1,30 @@
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+table {
+  width: 50%;
+  text-align: left;
+  border-collapse: collapse;
+}
+.head {
+  font-weight: bolder;
+  font-size: 35px;
+  margin: 100px;
+}
+.search {
+  width: 85px;
+}
+.pagination {
+  float: right;
+  margin-right: 50%;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 7px;
+  background-color: #cacccb;
+  border-radius: 36%;
+}
